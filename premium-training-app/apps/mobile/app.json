@@ -7,11 +7,16 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "assetBundlePatterns": ["**/*"],
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.premiumtraining.app" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.premiumtraining.app"
+    },
     "android": {
       "package": "com.premiumtraining.app"
     },
     "plugins": ["expo-secure-store"],
-    "experiments": { "typedRoutes": true }
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
