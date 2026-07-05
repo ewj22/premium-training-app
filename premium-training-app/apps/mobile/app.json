@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Premium Training",
+    "slug": "premium-training-app",
+    "scheme": "premiumtraining",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.premiumtraining.app" },
+    "android": {
+      "package": "com.premiumtraining.app"
+    },
+    "plugins": ["expo-secure-store"],
+    "experiments": { "typedRoutes": true }
+  }
+}
